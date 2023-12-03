@@ -1,0 +1,25 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "joi": "^17.6.1",
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^5.0.1"
+  }
+}
